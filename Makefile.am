@@ -1,20 +1,3 @@
-# Library lmfit:
-#   Levenberg-Marquardt least squares fitting
-# 
-# File Makefile.am:
-#   Input for the build process using GNU autotools.
-# 
-# Copyright:
-#   (C) 2013 Joachim Wuttke, Forschungszentrum Jülich GmbH
-# 
-# Licence:
-#   FreeBSD. See ../COPYING.
-# 
-# Website:
-#   http://apps.jcns.fz-juelich.de/lmfit
-
-pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = lmfit.pc
-
-SUBDIRS = lib test man demo
-ACLOCAL_AMFLAGS = -I m4
+version https://git-lfs.github.com/spec/v1
+oid sha256:976adfeebfd28c9a462a4adebe8086f9772a01a2d9d47e6234fb9005213f8158
+size 428

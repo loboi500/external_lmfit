@@ -1,7 +1,3 @@
-AM_CFLAGS = -I$(srcdir)/../lib
-noinst_PROGRAMS = curve1 curve2 nonlin1 surface1
-curve1_SOURCES = curve1.c
-curve2_SOURCES = curve2.c
-nonlin1_SOURCES = nonlin1.c
-surface1_SOURCES = surface1.c
-AM_LDFLAGS = -lm -L../lib -llmfit
+version https://git-lfs.github.com/spec/v1
+oid sha256:490d55c31f69582af996b670ed9b1d690bce302bd6f6cf698391df5cdb3cf691
+size 224
